@@ -12,7 +12,7 @@ namespace AtataSamples.NetCore.NUnit
     public class UITestFixtureChrome70
     {
         string baseUrl = "https://app.fluxday.io/users/sign_in";
-        string nodeUrl = "http://172.22.84.113:4444/wd/hub";
+        string nodeUrl = "http://172.17.0.1:4444/wd/hub";
 
         [SetUp]
         public void SetUp()
