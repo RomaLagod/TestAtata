@@ -25,7 +25,7 @@ namespace AtataSamples.NetCore.NUnit
         public void NetCoreNUnit_SignInChrome69()
         {
             Go.To<SignInPage>().
-               Email.Set("lead@fluxday.io").
+               Email.Set("lead@fluxday.io").               
                Wait(8).
                Password.Set("password").
                Wait(8).

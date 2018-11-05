@@ -25,7 +25,7 @@ namespace AtataSamples.NetCore.NUnit
                     WithCapabilities(capabilities).
                     WithRemoteAddress(new Uri(nodeUrl)).
                 UseBaseUrl(baseUrl).
-                UseWaitingTimeout(new TimeSpan(0, 0, 15)).
+                //UseWaitingTimeout(new TimeSpan(0, 0, 15)).
                 UseNUnitTestName().
                 AddNUnitTestContextLogging().
                 LogNUnitError().
