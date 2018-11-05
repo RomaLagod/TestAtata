@@ -10,11 +10,11 @@ namespace AtataSamples.NetCore.NUnit
         {
             Go.To<SignInPage>().
                Email.Set("lead@fluxday.io").
-               Wait(8).
+               //Wait(8).
                Password.Set("password").
-               Wait(8).
+               //Wait(8).
                Login.Click().
-               Wait(10).
+               //Wait(10).
                Task.Should.Equals("+Task");
         } 
     }
@@ -26,11 +26,11 @@ namespace AtataSamples.NetCore.NUnit
         {
             Go.To<SignInPage>().
                Email.Set("lead@fluxday.io").               
-               Wait(8).
+               //Wait(8).
                Password.Set("password").
-               Wait(8).
+               //Wait(8).
                Login.Click().
-               Wait(10).
+              // Wait(10).
                Task.Should.Equals("+Task");
         }
     }
@@ -42,11 +42,11 @@ namespace AtataSamples.NetCore.NUnit
         {
             Go.To<SignInPage>().
                Email.Set("lead@fluxday.io").
-               Wait(8).
+               //Wait(8).
                Password.Set("password").
-               Wait(8).
+               //Wait(8).
                Login.Click().
-               Wait(10).
+               //Wait(10).
                Task.Should.Equals("+Task");
         }
     }
@@ -58,11 +58,11 @@ namespace AtataSamples.NetCore.NUnit
         {
             Go.To<SignInPage>().
                Email.Set("lead@fluxday.io").
-               Wait(8).
+               //Wait(8).
                Password.Set("password").
-               Wait(8).
+               //Wait(8).
                Login.Click().
-               Wait(10).
+               //Wait(10).
                Task.Should.Equals("+Task");
         }
     }
